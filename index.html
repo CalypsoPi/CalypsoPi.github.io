@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>CalypsoPi Website</title>
+    <meta charset="utf-8">
+    <!-- che fa sta roba sotto -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Sito web del progetto">
+    <meta name="author" content="CalypsoPi Team">
+    <!-- creare favicon -->
+    <link rel="icon" href="images/favicon.ico">
+    <!-- css custom -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- css bs + fontawesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  </head>
+
+  <body>
+    <!-- inizio navbar -->
+    <section id="home">
+      <nav class="navbar fixed-top container-fluid" id="wrapper">
+        <!-- logo desktop -->
+        <a class="nav-brand d-none d-md-block" href="#home">
+          <img src="images/banner.png" height="45" alt="image">
+        </a>
+        <!-- logo mobile -->
+        <a class="nav-brand d-md-none container-fluid justify-content-center" href="#home">
+          <img src="images/banner.png" height="35" alt="image">
+        </a>
+          <!-- navbar items -->
+          <ul class="nav justify-content-center padfix navfont">
+            <li class="nav-item">
+                <a class="nav-link" href="#features" id="navcolor">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#bgteam" id="navcolor">About Us</a>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navcolor" data-bs-toggle="dropdown" aria-expanded="false">Donazioni</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Bitcoin</a></li>
+                  <li><a class="dropdown-item" href="#">Ethereum</a></li>
+                  <li><a class="dropdown-item" href="https://paypal.me/CristianDiCarlo?country.x=IT&locale.x=it_IT" target="_blank">Paypal</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://t.me/calypso_proj" target="_blank" id="navcolor"><i class="fab fa-telegram"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.youtube.com/channel/UCijKsJhM39H3CmdKzH27OsA" target="_blank" id="navcolor"><i class="fab fa-youtube"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/CalypsoPi" target="_blank" id="navcolor"><i class="fab fa-github"></i></a>
+            </li>
+            </ul>
+    </section>
+    <!-- fine navbar -->
+
+
+    <!-- inizio landpage -->
+    <section id="landpage">
+      <div class="d-flex align-items-center justify-content-center landHeight">
+        <div class="my-5 text-center">
+            <img class="padfix img-fluid" src="images/Munnizza-pi-3d-3x.png" alt="image" id="logo-mid">
+          <div class="my-3 text-center">
+              <button class="mcbtn btnfix mcfont soundTrigger my-1 mx-2" type="button" data-bs-toggle="modal" data-bs-target="#regForm">Registrati</button>
+              <button class="mcbtn btnfix mcfont soundTrigger my-1 mx-2" type="button" data-bs-toggle="modal" data-bs-target="#loginForm">Accedi</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- fine landpage -->
+
+
+    <!-- inzio team -->
+    <section class="mcfont d-flex align-items-center" id="bgteam">
+      <div class="pt-5 container-fluid">
+        <div class="text-center">
+          <div class="">
+            <h3 class="display-5 mb-4">Our Team</h3>
+          </div>
+        </div>
+        <div class="row text-center mt-md-5">
+          <div class="col-md-4 col-12 mb-5">
+            <img alt="image" class="propic img-fluid rounded-circle mt-3 mb-4 shadow" src="images/oka.jpg">
+            <h3 class="nomi"><strong>Okazakee</strong></h3>
+            <p>Sicily, Italy</p>
+            <p>- Founder -</p><p>Frontend/Backend Dev, DB Admin</p><br>
+            <div class="d-flex justify-content-center ">
+              <a href="#" role="button" class="p-2 m-2"><i class="fab fa-twitter fa-md iconsTeam" aria-hidden="true"></i></a>
+              <a href="#" role="button" class="p-2 m-2"><i class="fab fa-telegram fa-md iconsTeam" aria-hidden="true"></i></a>
+              <a href="#" role="button" class="p-2 m-2"><i class="fab fa-linkedin fa-md iconsTeam" aria-hidden="true"></i></a>
+              <a href="#" role="button" class="p-2 m-2"><i class="fab fa-github fa-md iconsTeam" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 mb-5">
+            <img alt="image" class="propic img-fluid rounded-circle mt-3 mb-4 shadow" src="images/marco.jpg">
+            <h3 class="nomi"><strong>Eramod</strong></h3>
+            <p>Sicily, Italy</p>
+            <p>- Support -</p><p>Minecraft Server Manager</p><br>
+            <div class="d-flex justify-content-center">
+              <a href="#" role="button" class="p-2 m-2"><i class="fab fa-twitter fa-md iconsTeam" aria-hidden="true"></i></a>
+              <a href="#" role="button" class="p-2 m-2"><i class="fab fa-telegram fa-md iconsTeam" aria-hidden="true"></i></a>
+              <a href="#" role="button" class="p-2 m-2"><i class="fab fa-linkedin fa-md iconsTeam" aria-hidden="true"></i></a>
+              <a href="#" role="button" class="p-2 m-2"><i class="fab fa-github fa-md iconsTeam" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 mb-5">
+            <img alt="image" class="propic img-fluid rounded-circle mt-3 mb-4 shadow" src="images/jack.jpg">
+            <h3 class="nomi"><strong>Jack Rendor</strong></h3>
+            <p>Sicily, Italy</p>
+            <p>- Founder -</p><p>Security Manager</p><br>
+            <div class="d-flex justify-content-center">
+              <a href="#" role="button" class="p-2 m-2"><i class="fab fa-twitter fa-md iconsTeam" aria-hidden="true"></i></a>
+              <a href="#" role="button" class="p-2 m-2"><i class="fab fa-telegram fa-md iconsTeam" aria-hidden="true"></i></a>
+              <a href="#" role="button" class="p-2 m-2"><i class="fab fa-linkedin fa-md iconsTeam" aria-hidden="true"></i></a>
+              <a href="#" role="button" class="p-2 m-2"><i class="fab fa-github fa-md iconsTeam" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- fine team -->
+
+
+    <button type="button" class="mcbtn btn-floating soundTrigger" id="backTopbtn"><i class="bi bi-arrow-bar-up"></i></button>
+
+    <!-- disclaimer modal avviso sui dati -->
+    <div class="modal fade mcfont formtext" id="disclaimer" data-bs-backdrop="static" tabindex="-1" aria-labelledby="disclaimer" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content ps-5 pe-5 pt-3 pb-4">
+          <div class="modal-header fix pt-2 d-flex justify-content-end" data-bs-toggle="modal" data-bs-target="#regForm">
+            <button type="button" class="iconclose" aria-label="regForm"></button>
+          </div>
+          <h5 class="modal-title formtext ps-1 pb-1" id="disclaimer">Il sito web, il server Minecraft ed ogni cosa inerente ad essi viene eseguita ed ospitata nella mia rete personale.
+            <div class="pb-2"></div>
+            Di conseguenza, preferisco essere sicuro di chi stia utilizzando il "servizio" limitando eventuali problemi di sicurezza.</h5>
+        </div>
+      </div>
+    </div>
+    <!-- fine disclaimer -->
+
+        <!-- disclaimer modal terms -->
+        <div class="modal fade mcfont formtext" id="terms" data-bs-backdrop="static" tabindex="-1" aria-labelledby="termini e servizi" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content ps-5 pe-5 pt-3 pb-4">
+              <div class="modal-header fix pt-2 d-flex justify-content-end" data-bs-toggle="modal" data-bs-target="#regForm">
+                <button type="button" class="iconclose" aria-label="regForm"></button>
+              </div>
+              <h5 class="modal-title formtext ps-1 pb-1" id="disclaimer">BLABLABLA
+                <div class="pb-2"></div>
+                BLABLA222 LOREM IPSUM SIUUUUUUUUUUUM</h5>
+            </div>
+          </div>
+        </div>
+        <!-- fine disclaimer terms-->
+
+    <!-- Modal registrazione inizio -->
+    <div class="modal fade mcfont formtext" id="regForm" tabindex="-1" aria-labelledby="regForm" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content ps-5 pe-5 pt-3 pb-3">
+          <div class="modal-header fix pt-3 pb-3 d-flex justify-content-between">
+            <div class="pe-4"></div>
+            <h5 class="modal-title formtext text-center" id="regForm">Compila il modulo per registrarti!</h5>
+            <button type="button" class="iconclose pe-4" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body fix">
+            <!-- FORM INIZIO -->
+            <form class="text-center" action="./php/info.php" method="post">
+              <div class="row mb-2">
+                <label for="anagrafica" class="form-label">Dati anagrafici</label>
+                <div class="col-6 mb-1">
+                  <input type="text" class="form-control" placeholder="Nome" name="nome">
+                </div>
+                <div class="col-6">
+                  <input type="text" class="form-control" placeholder="Cognome" name="cognome">
+                </div>
+                <div class="col-6 mb-1">
+                  <label for="date" class="form-label">Data di nascita</label>
+                  <input type="text" class="form-control" placeholder="20/02/1998" name="date">
+                </div>
+                <div class="col-6">
+                  <label for="mobile" class="form-label"> Numero Cellulare</label>
+                  <input type="mobile" class="form-control" name="mobile" pattern="[0-9]{3}[0-9]{4}[0-9]{3}" placeholder="3xx xxxxxxx">
+                </div>
+              </div>
+              <div class="mb-2">
+                <label for="mcuser" class="form-label">Minecraft Username</label>
+                <input type="text" class="form-control" placeholder="Francuzzu" name="mcuser">
+              </div>
+              <div class=" mb-2">
+                <label for="email_reg" class="form-label">Email</label>
+                <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="franco@gmail.com" name="email">
+              </div>
+              <div class="mb-2">
+                <label for="pwd_reg" class="form-label">Password</label>
+                <input type="password" name="pwd" class="form-control" placeholder="*********" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters">
+              </div>
+              <div class="d-flex justify-content-center">
+                <button type="submit" class="mcbtn form mcfont btn-submit submitSndTrigger" name="submit" value="Submit">Registrati</button>
+              </div>
+              <div class="pt-2 highlight" data-bs-toggle="modal" data-bs-target="#disclaimer">
+                <i class="bi bi-question-square"></i>
+                <label class="text-center question">Perché tutti questi dati?</label>
+              </div>
+              <div class="">
+              <label class="terms pb-3 pt-2">
+                Premendo su <strong class="termsfont">"Registrati"</strong> acconsento ai<br>
+                <a class="termsfont highlight" data-bs-toggle="modal" data-bs-target="#terms"><strong>Termini e condizioni.</strong></a></label>
+            </div>
+            </form>
+            <!-- FORM FINE -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal registrazione fine -->
+
+    <!-- Modal login -->
+    <div class="modal fade mcfont formtext" id="loginForm" tabindex="-1" aria-labelledby="loginForm" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content ps-5 pe-5">
+          <div class="modal-header pt-4 justify-content-between">
+            <div></div>
+            <button type="button" class="iconclose pe-2" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body fix">
+            <!-- FORM INIZIO -->
+            <form class="text-center">
+              <div class="mb-2">
+                <label for="email_login" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email_login" aria-describedby="emailHelp" placeholder="franco@gmail.com">
+              </div>
+              <div class="pb-2">
+                <label for="pwd_login" class="form-label">Password</label>
+                <input type="password" class="form-control" id="pwd_login" placeholder="*********" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters">
+              </div>
+              <div class="d-flex justify-content-center pb-2">
+                <input class="form-check-input checkboxform" type="checkbox" value="" id="stayonline">
+                <label class="form-check-label fix ps-2" for="stayonline">Rimani collegato</label>
+              </div>
+              <div class="pb-2">
+                <button type="submit" class="mcbtn mcfont btn-submit submitSndTrigger">Login</button>
+              </div>
+            </form>
+            <!-- FORM FINE -->
+          </div>
+        </div>
+      </div>
+    </div>    
+    <!-- modal login fine -->
+
+    <!-- JS calling -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="/js/dynamics.js"></script>
+  </body>
+
+  <footer class="bg-footer footer  py-1 bg-light">
+    <div class="container">
+      <div class="footer-strong text-center">2022 CalypsoPi - Project | W OPEN SOURCE</div>
+    </div>
+  </footer>
+
+</html>
